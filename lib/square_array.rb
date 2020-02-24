@@ -5,11 +5,11 @@ def square_array(array)
   squares = []
   
   while index < array.length do
-    array[counter] = (array[counter] * array[counter])
+    squares[index] = (array[index] * array[index])
     index+=1
   end
   
-  puts array
+  p squares
   
 end
 
