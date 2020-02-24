@@ -8,7 +8,7 @@ def square_array(array)
     counter+=1
   end
   
-  puts squared_array
+  puts squared
   
 end
 
