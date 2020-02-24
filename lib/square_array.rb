@@ -4,11 +4,11 @@ def square_array(array)
   squared = []
   
   while counter < array.length do
-    squared[counter] = array[counter] * array[counter]
+    array[counter] = array[counter] * array[counter]
     counter+=1
   end
   
-  puts squared
+  puts array
   
 end
 
