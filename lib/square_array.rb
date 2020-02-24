@@ -6,7 +6,7 @@ def square_array(array)
   
   while index < array.length do
     array[counter] = (array[counter] * array[counter])
-    counter+=1
+    index+=1
   end
   
   puts array
